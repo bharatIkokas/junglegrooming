@@ -1,0 +1,25 @@
+.full-width-carousel img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    left: 8%;
+    color: var(--black-color);
+    text-align: center;
+    transform: translateY(-50%);
+    width: 28%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+.full-width-carousel {
+    height: calc(100vh - 64px);
+}
+

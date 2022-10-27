@@ -1,0 +1,7 @@
+.big-image-cnt {
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,25 @@
+header .container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .logo img {
+    max-width: 8.6rem;
+}
+
+header {
+    padding: 1.5rem 0;
+}
+
+header ul li a {
+    padding: .5rem 1rem;
+}
+
+header ul {
+    margin: 0;
+}

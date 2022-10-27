@@ -1,0 +1,10 @@
+<div class="category-wrapp">
+    <div class="category-item" *ngFor="let item of categoryCnt">
+        <div class="category-content">
+            <a routerLink="/our-products">
+                <img src="{{item.categorylImg}}" alt="" class="shake-animation">
+                <h3>{{item.categorylTitle}}</h3>
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+.category-item {
+    width: 19%;
+}
+
+.category-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-wrapp h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.category-content {
+    text-align: center;
+}
+
+.category-content img {
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+    border-radius: 100%;
+    transition: .5s ease;
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+<div class="full-width-carousel">
+<ngb-carousel>
+    <ng-template ngbSlide *ngFor="let item of carouselCnt">
+      <div class="picsum-img-wrapper">
+        <img src="{{item.carouselImg}}" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <div class="sub-title">{{item.carouselSubTitle}}</div>
+        <h2 class="slider-title gap-bottom-sm">{{item.carouselTitle}} <span>{{item.carouselTitleItalic}}</span></h2>
+        <a routerLink="/our-products" class="btn-v">{{item.carouselBtnText}}</a>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  </div>

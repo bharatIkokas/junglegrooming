@@ -1,0 +1,14 @@
+<div class="category-big-wrapp">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let item of categoryBigList">
+            <div class="category-big-block position-relative">
+                <a routerLink="/our-products">
+                    <img src="{{item.img}}" alt="" class="shake-animation">
+                </a>
+                <div class="category-big-cnt text-center">
+                    <a routerLink="/our-products" class="btn-v white with-white-bg lg within-section">{{item.btnText}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

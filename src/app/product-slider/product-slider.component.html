@@ -1,0 +1,25 @@
+<div class="product-slider">
+    <div class="row align-items-center">
+        <div class="col-md-4">
+            <h2>{{PrdutSliderName}} <span>{{ProductSliderNameSpan}}</span></h2>
+            <div class="f-sm gap-bottom-sm mt-3">Meet our most lovable plants.</div>
+            <a routerLink="/our-products" class="btn-v">Explore More</a>
+        </div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-4 position-relative product-block" *ngFor="let item of p_item_list">
+                    <a routerLink="/our-products">
+                        <div class="p-label orange" [class.red]="item.p_label === '-40%'">{{item.p_label}}</div>
+                    <div class="p-image-block">
+                        <img src="{{item.p_img}}" alt="">
+                    </div>
+                    <div class="p-cnt-block pt-5 f-md">
+                        <div class="pb-3">{{item.p_name}}</div>
+                        <div class="gray-text">&#8377; <span>{{item.p_price}}</span></div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
